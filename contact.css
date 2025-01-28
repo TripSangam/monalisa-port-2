@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #191a1c;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Contact Card Styling */
+.contact-card {
+    background-color: #34495e;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+/* Logo Styling */
+.logo img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Heading Styling */
+.contact-card h1 {
+    color: #e74c3c;
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Contact Information Styling */
+.contact-info p {
+    font-size: 18px;
+    color: #ecf0f1;
+    margin: 10px 0;
+}
+
+/* Link Styling */
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #e74c3c;
+}
+
+/* Strong Text Styling */
+.contact-info strong {
+    color: #e74c3c;
+}
